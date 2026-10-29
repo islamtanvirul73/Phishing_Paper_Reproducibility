@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "method": "nested StratifiedGroupKFold; first fold at each level",
+  "URL_comparison": "strip surrounding whitespace only",
+  "row_index": "zero-based positions in the recorded source files",
+  "input_sha256": {
+    "/content/drive/MyDrive/3. Research/1. Phising URL Detection/phishing_q1_project/data/phiusiil.csv": "69c7b37c730193094a9d6f9fbad67a5f1264c55466d0408342ce2bbc0d68a2c2",
+    "/content/drive/MyDrive/3. Research/1. Phising URL Detection/phishing_q1_project/data/phiusiil_unified.csv": "b1e59fbbd8e37ae1670d4b10e0a4525f23ebd518a9b2973f6b772c783c7423a6"
+  },
+  "split_file_sha256": "ee737850744aabdef98b7c8e5754c6785b9d421c61bb40e5203237f94dbadf5f",
+  "scikit_learn_version": "1.6.1",
+  "partitions": [
+    {
+      "partition": "source_train",
+      "rows": 150931,
+      "legitimate": 86294,
+      "phishing": 64637,
+      "distinct_URLs": 150637
+    },
+    {
+      "partition": "source_validation",
+      "rows": 37716,
+      "legitimate": 21569,
+      "phishing": 16147,
+      "distinct_URLs": 37659
+    },
+    {
+      "partition": "source_test",
+      "rows": 47148,
+      "legitimate": 26987,
+      "phishing": 20161,
+      "distinct_URLs": 47074
+    }
+  ],
+  "shared_URLs_between_partitions": 0
+}

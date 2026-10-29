@@ -1,0 +1,18 @@
+# Datasets will be distributed separately
+/data/
+
+# Generated runs; retain the approved preparation records
+/results/revision/*
+!/results/revision/url_grouped_preparation_20261020T224241295695Z/
+
+# Python and notebook temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local settings and credentials
+.env
+.env.*
+.vscode/

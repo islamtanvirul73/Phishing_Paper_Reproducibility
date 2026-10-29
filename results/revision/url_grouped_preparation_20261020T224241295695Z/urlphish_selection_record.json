@@ -1,0 +1,16 @@
+{
+  "selection_rule": "exclude exact URLs in source training or validation",
+  "URL_comparison": "strip surrounding whitespace only",
+  "row_index": "zero-based position in recorded full URL-Phish files",
+  "input_sha256": {
+    "/content/drive/MyDrive/3. Research/1. Phising URL Detection/phishing_q1_project/data/URL-Phish.csv": "d68b3cd0648dcf9c775347416ad1a8995e8a025921fbe3871ca6158d4db3c3a1",
+    "/content/drive/MyDrive/3. Research/1. Phising URL Detection/phishing_q1_project/data/urlphish_unified.csv": "bc8bf171cfc26715e1bcce56eaa1ae57862e3f0e6ba719cf931bb074e502279e"
+  },
+  "source_split_sha256": "ee737850744aabdef98b7c8e5754c6785b9d421c61bb40e5203237f94dbadf5f",
+  "selection_file_sha256": "d5f755045175b9fa8b3ed6c0924024deb5daa1080c00e7fd62fc1d03a6d536ec",
+  "selected_rows": 116126,
+  "legitimate": 99526,
+  "phishing": 16600,
+  "distinct_selected_URLs": 114764,
+  "retained_source_test_matches": 130
+}

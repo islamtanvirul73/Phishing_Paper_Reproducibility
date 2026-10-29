@@ -1,0 +1,32 @@
+{
+  "selection_rule": "exclude exact URLs in source training or validation",
+  "URL_comparison": "strip surrounding whitespace only",
+  "row_index": "zero-based position in corrected full LegitPhish files",
+  "input_sha256": {
+    "/content/drive/MyDrive/3. Research/1. Phising URL Detection/phishing_q1_project/data/LegitPhish Dataset.csv": "c14a360377ea4045aafb56de5781d365706a48b168df4d64ae30ceef40b9afc7",
+    "/content/drive/MyDrive/3. Research/1. Phising URL Detection/phishing_q1_project/data/legitphish_unified.csv": "441dfcf6556e0d51b2dfd7e4e932cecf904c1e21c40e895272d84d5d915b4a77"
+  },
+  "source_split_sha256": "ee737850744aabdef98b7c8e5754c6785b9d421c61bb40e5203237f94dbadf5f",
+  "selection_file_sha256": "28b278e71be2084c4a2ed301cadd57eeff5bd092212dd8badf363f7c797bd295",
+  "selected_rows": 71767,
+  "distinct_selected_URLs": 71421,
+  "class_summary": [
+    {
+      "class": "legitimate",
+      "corrected_full_rows": 37540,
+      "source_train_matches": 23486,
+      "source_validation_matches": 5965,
+      "selected_rows": 8089,
+      "selected_source_test_matches": 7484
+    },
+    {
+      "class": "phishing",
+      "corrected_full_rows": 63678,
+      "source_train_matches": 0,
+      "source_validation_matches": 0,
+      "selected_rows": 63678,
+      "selected_source_test_matches": 0
+    }
+  ],
+  "limits": "Source-test URL overlap is counted but retained. Domain independence has not been established."
+}
